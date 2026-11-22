@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EU grant opportunities</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>EU grant opportunities</h1>
+    <p>
+      Open and forthcoming calls from the EU Funding &amp; Tenders Portal, refreshed once a day.
+      <span id="updated">Loading…</span>
+    </p>
+    <p>
+      Download everything:
+      <a href="data/grants.csv">CSV</a> ·
+      <a href="data/grants.xlsx">Excel (XLSX)</a>
+    </p>
+  </header>
+
+  <p id="warning" class="warning" hidden></p>
+
+  <form id="filters">
+    <label class="wide">Keyword
+      <input type="search" name="q" placeholder="Title, identifier or programme">
+    </label>
+    <label>Programme
+      <select name="programme"><option value="">All programmes</option></select>
+    </label>
+    <label>Type
+      <select name="type"><option value="">All types</option></select>
+    </label>
+    <label>Status
+      <select name="status"><option value="">Open and forthcoming</option></select>
+    </label>
+    <label>Show
+      <select name="new">
+        <option value="">All calls</option>
+        <option value="today">New today</option>
+        <option value="week">New this week</option>
+        <option value="changed">Changed this week</option>
+      </select>
+    </label>
+    <label>Deadline from
+      <input type="date" name="from">
+    </label>
+    <label>Deadline to
+      <input type="date" name="to">
+    </label>
+    <label>Budget from (€)
+      <input type="number" name="min" min="0" step="1000" inputmode="numeric">
+    </label>
+    <label>Budget to (€)
+      <input type="number" name="max" min="0" step="1000" inputmode="numeric">
+    </label>
+    <label>Sort by
+      <select name="sort">
+        <option value="deadline">Deadline</option>
+        <option value="title">Title</option>
+        <option value="programme">Programme</option>
+        <option value="type">Type</option>
+        <option value="status">Status</option>
+        <option value="opening">Opening date</option>
+        <option value="budget">Budget</option>
+        <option value="first_seen">First seen</option>
+      </select>
+    </label>
+    <label>Order
+      <select name="dir">
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+      </select>
+    </label>
+    <button type="reset">Clear filters</button>
+  </form>
+
+  <p id="count" aria-live="polite"></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th><button type="button" data-sort="title">Call</button></th>
+        <th><button type="button" data-sort="programme">Programme</button></th>
+        <th><button type="button" data-sort="type">Type</button></th>
+        <th><button type="button" data-sort="status">Status</button></th>
+        <th><button type="button" data-sort="opening">Opens</button></th>
+        <th><button type="button" data-sort="deadline">Deadline</button></th>
+        <th class="number"><button type="button" data-sort="budget">Budget (€)</button></th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <footer>
+    <p>
+      Source: <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home">EU Funding &amp; Tenders Portal</a>.
+      Always check the portal for the authoritative details. When you filter by deadline or budget,
+      calls that are missing that information are hidden.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
