@@ -1,8 +1,8 @@
-/* Colours. The dark theme below only swaps these values. */
+/* Colours */
 :root {
   --bg: #ffffff;
   --surface: #f5f6f4;
-  --text: #1f2421;
+  --text: #000000;
   --muted: #5a625d;
   --border: #e2e5e2;
   --control: #8a938d;
@@ -11,20 +11,6 @@
   --alert: #a3452a;         /* terracotta */
   --alert-soft: #f8e7df;
   --bar-height: 0px;        /* set by app.js: height of the pinned filter bar */
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #161917;
-    --surface: #1f2421;
-    --text: #e7eae7;
-    --muted: #a5ada7;
-    --border: #323934;
-    --control: #717a74;
-    --accent: #a3c9b1;
-    --accent-soft: #26352c;
-    --alert: #eba288;
-    --alert-soft: #40271d;
-  }
 }
 
 * { box-sizing: border-box; }
@@ -169,8 +155,8 @@ input, select {
 /* ---- Table ---------------------------------------------------------- */
 
 table { width: 100%; border-collapse: collapse; table-layout: fixed; }
-.c-prog { width: 104px; }
-.c-type { width: 88px; }
+.c-prog { width: 128px; }
+.c-type { width: 80px; }
 .c-status { width: 116px; }
 .c-date { width: 104px; }
 .c-deadline { width: 126px; }
@@ -224,7 +210,9 @@ td.number, .date { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .sub .link { margin-left: 6px; font-size: inherit; }
 .dash { color: var(--muted); }
 
-.tag, .pill, .badge {
+.tag { font-size: 0.87rem; color: var(--muted); overflow-wrap: anywhere; }
+
+.pill, .badge {
   display: inline-block;
   padding: 0 7px;
   border-radius: 4px;
@@ -236,8 +224,6 @@ td.number, .date { white-space: nowrap; font-variant-numeric: tabular-nums; }
   text-overflow: ellipsis;
   vertical-align: bottom;
 }
-.tag { background: var(--surface); border: 1px solid var(--border); color: var(--muted); }
-tbody tr:hover .tag { background: var(--bg); }
 .pill { border-radius: 10px; border: 1px solid var(--control); color: var(--muted); }
 .pill.open { border-color: var(--accent); background: var(--accent-soft); color: var(--text); }
 .pill::before { content: "○ "; }
