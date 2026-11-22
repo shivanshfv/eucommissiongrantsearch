@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T15:17:53Z",
+ "generated_at": "2026-11-22T16:27:40Z",
  "calls": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15982",
@@ -3376,46 +3376,6 @@
    "next_deadline": "2027-02-10"
   },
   {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-TVONLINE-2",
-   "identifier": "CREA-MEDIA-2027-TVONLINE-2",
-   "title": "TV and online content Documentary projects",
-   "type": "Grant topic",
-   "programme": "Creative Europe Programme (CREA)",
-   "call": "CREA-MEDIA-2027-TVONLINE",
-   "status": "Open",
-   "opening_date": "2026-09-30",
-   "deadlines": [
-    "2027-02-10",
-    "2027-09-15"
-   ],
-   "deadline_model": "multiple cut-off",
-   "budget": 23300000,
-   "first_seen": "",
-   "changed_on": "",
-   "change": "",
-   "next_deadline": "2027-02-10"
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-TVONLINE-3",
-   "identifier": "CREA-MEDIA-2027-TVONLINE-3",
-   "title": "TV and online content Fiction projects",
-   "type": "Grant topic",
-   "programme": "Creative Europe Programme (CREA)",
-   "call": "CREA-MEDIA-2027-TVONLINE",
-   "status": "Open",
-   "opening_date": "2026-09-30",
-   "deadlines": [
-    "2027-02-10",
-    "2027-09-15"
-   ],
-   "deadline_model": "multiple cut-off",
-   "budget": 23300000,
-   "first_seen": "",
-   "changed_on": "",
-   "change": "",
-   "next_deadline": "2027-02-10"
-  },
-  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16542",
    "identifier": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
    "title": "GRAIL Open Call — Genesis (1st Open Call)",
@@ -3694,25 +3654,6 @@
    ],
    "deadline_model": "single-stage",
    "budget": 80000000,
-   "first_seen": "",
-   "changed_on": "",
-   "change": "",
-   "next_deadline": "2027-02-16"
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-EMJM-DESIGN",
-   "identifier": "ERASMUS-EDU-2027-EMJM-DESIGN",
-   "title": "Erasmus Mundus Design Measures",
-   "type": "Grant topic",
-   "programme": "Erasmus (ERASMUS )",
-   "call": "ERASMUS-EDU-2027-EMJM-DESIGN",
-   "status": "Open",
-   "opening_date": "2026-11-19",
-   "deadlines": [
-    "2027-02-16"
-   ],
-   "deadline_model": "single-stage",
-   "budget": 3000000,
    "first_seen": "",
    "changed_on": "",
    "change": "",
