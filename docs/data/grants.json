@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:27:40Z",
+ "generated_at": "2026-11-23T05:23:39Z",
  "calls": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15982",
@@ -2318,44 +2318,6 @@
    "next_deadline": "2027-01-18"
   },
   {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-LSSNCESE",
-   "identifier": "ERASMUS-SPORT-2027-LSSNCESE",
-   "title": "Large scale not-for-profit European sport event",
-   "type": "Grant topic",
-   "programme": "Erasmus (ERASMUS )",
-   "call": "ERASMUS-SPORT-2027-LSSNCESE",
-   "status": "Forthcoming",
-   "opening_date": "2026-11-24",
-   "deadlines": [
-    "2027-01-19"
-   ],
-   "deadline_model": "single-stage",
-   "budget": 3000000,
-   "first_seen": "",
-   "changed_on": "",
-   "change": "",
-   "next_deadline": "2027-01-19"
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-SNCESE",
-   "identifier": "ERASMUS-SPORT-2027-SNCESE",
-   "title": "Not-for-profit European sport events",
-   "type": "Grant topic",
-   "programme": "Erasmus (ERASMUS )",
-   "call": "ERASMUS-SPORT-2027-SNCESE",
-   "status": "Forthcoming",
-   "opening_date": "2026-11-24",
-   "deadlines": [
-    "2027-01-19"
-   ],
-   "deadline_model": "single-stage",
-   "budget": 12000000,
-   "first_seen": "",
-   "changed_on": "",
-   "change": "",
-   "next_deadline": "2027-01-19"
-  },
-  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG",
    "identifier": "EU4H-2027-SANTE-OG",
    "title": "Call for proposals for operating grants in 2027 to non-governmental organisations: financial contribution to the functioning of health non-governmental organisations implementing one or more specific objectives of Regulation (EU) 2021/522 (OA-g-26-91 )",
@@ -3376,6 +3338,46 @@
    "next_deadline": "2027-02-10"
   },
   {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-TVONLINE-2",
+   "identifier": "CREA-MEDIA-2027-TVONLINE-2",
+   "title": "TV and online content Documentary projects",
+   "type": "Grant topic",
+   "programme": "Creative Europe Programme (CREA)",
+   "call": "CREA-MEDIA-2027-TVONLINE",
+   "status": "Open",
+   "opening_date": "2026-09-30",
+   "deadlines": [
+    "2027-02-10",
+    "2027-09-15"
+   ],
+   "deadline_model": "multiple cut-off",
+   "budget": 23300000,
+   "first_seen": "2026-11-23",
+   "changed_on": "",
+   "change": "",
+   "next_deadline": "2027-02-10"
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-TVONLINE-3",
+   "identifier": "CREA-MEDIA-2027-TVONLINE-3",
+   "title": "TV and online content Fiction projects",
+   "type": "Grant topic",
+   "programme": "Creative Europe Programme (CREA)",
+   "call": "CREA-MEDIA-2027-TVONLINE",
+   "status": "Open",
+   "opening_date": "2026-09-30",
+   "deadlines": [
+    "2027-02-10",
+    "2027-09-15"
+   ],
+   "deadline_model": "multiple cut-off",
+   "budget": 23300000,
+   "first_seen": "2026-11-23",
+   "changed_on": "",
+   "change": "",
+   "next_deadline": "2027-02-10"
+  },
+  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16542",
    "identifier": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
    "title": "GRAIL Open Call — Genesis (1st Open Call)",
@@ -3655,6 +3657,25 @@
    "deadline_model": "single-stage",
    "budget": 80000000,
    "first_seen": "",
+   "changed_on": "",
+   "change": "",
+   "next_deadline": "2027-02-16"
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-EMJM-DESIGN",
+   "identifier": "ERASMUS-EDU-2027-EMJM-DESIGN",
+   "title": "Erasmus Mundus Design Measures",
+   "type": "Grant topic",
+   "programme": "Erasmus (ERASMUS )",
+   "call": "ERASMUS-EDU-2027-EMJM-DESIGN",
+   "status": "Open",
+   "opening_date": "2026-11-19",
+   "deadlines": [
+    "2027-02-16"
+   ],
+   "deadline_model": "single-stage",
+   "budget": 3000000,
+   "first_seen": "2026-11-23",
    "changed_on": "",
    "change": "",
    "next_deadline": "2027-02-16"
@@ -4652,25 +4673,6 @@
    "changed_on": "",
    "change": "",
    "next_deadline": "2027-03-04"
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-CB",
-   "identifier": "ERASMUS-SPORT-2027-CB",
-   "title": "ERASMUS-SPORT-2027-CB - Capacity Building in the Field of Sport",
-   "type": "Grant topic",
-   "programme": "Erasmus (ERASMUS )",
-   "call": "ERASMUS-SPORT-2027-CB",
-   "status": "Forthcoming",
-   "opening_date": "2026-12-17",
-   "deadlines": [
-    "2027-03-09"
-   ],
-   "deadline_model": "single-stage",
-   "budget": 2620000,
-   "first_seen": "",
-   "changed_on": "",
-   "change": "",
-   "next_deadline": "2027-03-09"
   },
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-SCP",
